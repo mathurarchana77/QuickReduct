@@ -1,0 +1,3 @@
+QuickReduct- The main program starts by loading the ‘TestData.csv’ file. The attributes of the data file are string, these are converted into float and the class-labelled column is converted into integer.
+
+The dependency function counts the number of samples in the dataset for which the attribute values are same and the class values are different. We start by computing the dependency of dataset with all the attributes. Gradually, we reduce the number of attribute one by one from the initial dataset and also ensure that the dependency value remains same
